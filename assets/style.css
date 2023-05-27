@@ -29,7 +29,7 @@ header.navbar {
   position: fixed;
   left: 0;
   z-index: 100; /* Behind the navbar */
-  font-family: 'Merienda', serif;
+  font-family: 'Cinzel', serif;
   font-size: 1.3rem;
   line-height: 2;
 }
@@ -120,7 +120,7 @@ li.nav-item.nav-item-img + li.nav-item {
   padding-top: 4px;
   padding-bottom: 4px;
   font-size: 1rem;
-  background-color: #ffffff;
+  background-color: #E88D67;
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
   text-align: center;
 }
@@ -225,7 +225,11 @@ div.rightcol > p.fs-5:first-child {
 }
 
 div.accordion-item {
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255,255,255,0.25);
+}
+
+div.accordion-header {
+  background-color: rgba(255,255,255,0);
 }
 
 button.accordion-button {
