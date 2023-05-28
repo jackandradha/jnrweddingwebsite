@@ -225,11 +225,7 @@ div.rightcol > p.fs-5:first-child {
 }
 
 div.accordion-item {
-  background-color: rgba(255,255,255,0.25);
-}
-
-div.accordion-header {
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255,255,255,0.75);
 }
 
 button.accordion-button {
